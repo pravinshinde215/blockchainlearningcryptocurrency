@@ -1,0 +1,30 @@
+{
+  "name": "blockchaintest",
+  "version": "1.0.0",
+  "description": "this is a test for learning blockchaintest",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "trmf": "truffle migrate",
+    "trm": "truffle migrate --reset",
+    "trc": "truffle console"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pravinshinde215/blockchainlearningcryptocurrency.git"
+  },
+  "author": "pravin shinde",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pravinshinde215/blockchainlearningcryptocurrency/issues"
+  },
+  "homepage": "https://github.com/pravinshinde215/blockchainlearningcryptocurrency#readme",
+  "dependencies": {
+    "babel-polyfill": "^6.26.0",
+    "babel-register": "^6.26.0",
+    "docker": "^1.0.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.21.3"
+  }
+}

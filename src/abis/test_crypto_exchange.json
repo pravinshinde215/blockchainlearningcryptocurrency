@@ -1,0 +1,225 @@
+{
+  "contractName": "test_crypto_exchange",
+  "abi": [
+    {
+      "constant": true,
+      "inputs": [],
+      "name": "name",
+      "outputs": [
+        {
+          "internalType": "string",
+          "name": "",
+          "type": "string"
+        }
+      ],
+      "payable": false,
+      "stateMutability": "view",
+      "type": "function"
+    }
+  ],
+  "metadata": "{\"compiler\":{\"version\":\"0.5.16+commit.9c3226ce\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"constant\":true,\"inputs\":[],\"name\":\"name\",\"outputs\":[{\"internalType\":\"string\",\"name\":\"\",\"type\":\"string\"}],\"payable\":false,\"stateMutability\":\"view\",\"type\":\"function\"}],\"devdoc\":{\"methods\":{}},\"userdoc\":{\"methods\":{}}},\"settings\":{\"compilationTarget\":{\"project:/src/contracts/test_crypto_exchange.sol\":\"test_crypto_exchange\"},\"evmVersion\":\"istanbul\",\"libraries\":{},\"optimizer\":{\"enabled\":true,\"runs\":200},\"remappings\":[]},\"sources\":{\"project:/src/contracts/test_crypto_exchange.sol\":{\"keccak256\":\"0x763ca2cb3bc6fd4bc2ac932e2250751e7886172149eee1d61c67505ed981d908\",\"urls\":[\"bzz-raw://2da448169108c49cd53fe71aa3931aa5ab7ef43e7325531239e08a7b9a137f34\",\"dweb:/ipfs/QmbNvQPRkyC8g1osYjg7rpiPdqYD8uPGNejPaQkDjp4XJ7\"]}},\"version\":1}",
+  "bytecode": "0x60c0604052601460808190527f746573745f63727970746f5f65786368616e676500000000000000000000000060a090815261003e9160009190610051565b5034801561004b57600080fd5b506100ec565b828054600181600116156101000203166002900490600052602060002090601f016020900481019282601f1061009257805160ff19168380011785556100bf565b828001600101855582156100bf579182015b828111156100bf5782518255916020019190600101906100a4565b506100cb9291506100cf565b5090565b6100e991905b808211156100cb57600081556001016100d5565b90565b610170806100fb6000396000f3fe608060405234801561001057600080fd5b506004361061002b5760003560e01c806306fdde0314610030575b600080fd5b6100386100ad565b6040805160208082528351818301528351919283929083019185019080838360005b8381101561007257818101518382015260200161005a565b50505050905090810190601f16801561009f5780820380516001836020036101000a031916815260200191505b509250505060405180910390f35b6000805460408051602060026001851615610100026000190190941693909304601f810184900484028201840190925281815292918301828280156101335780601f1061010857610100808354040283529160200191610133565b820191906000526020600020905b81548152906001019060200180831161011657829003601f168201915b50505050508156fea265627a7a723158202401ea40ff5928720b7fee23e478216bb1c5457b7923f6bc8455657689b51cc764736f6c63430005100032",
+  "deployedBytecode": "0x608060405234801561001057600080fd5b506004361061002b5760003560e01c806306fdde0314610030575b600080fd5b6100386100ad565b6040805160208082528351818301528351919283929083019185019080838360005b8381101561007257818101518382015260200161005a565b50505050905090810190601f16801561009f5780820380516001836020036101000a031916815260200191505b509250505060405180910390f35b6000805460408051602060026001851615610100026000190190941693909304601f810184900484028201840190925281815292918301828280156101335780601f1061010857610100808354040283529160200191610133565b820191906000526020600020905b81548152906001019060200180831161011657829003601f168201915b50505050508156fea265627a7a723158202401ea40ff5928720b7fee23e478216bb1c5457b7923f6bc8455657689b51cc764736f6c63430005100032",
+  "sourceMap": "116:43:1:-;79:84;116:43;;79:84;116:43;;;;;;;;;;-1:-1:-1;;116:43:1;;:::i;:::-;;79:84;8:9:-1;5:2;;;30:1;27;20:12;5:2;79:84:1;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;-1:-1:-1;79:84:1;;;-1:-1:-1;79:84:1;:::i;:::-;;;:::o;:::-;;;;;;;;;;;;;;;;;;;;:::o;:::-;;;;;;;",
+  "deployedSourceMap": "79:84:1:-;;;;8:9:-1;5:2;;;30:1;27;20:12;5:2;79:84:1;;;;;;;;;;;;;;;;;;;116:43;;;:::i;:::-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;8:100:-1;33:3;30:1;27:10;8:100;;;90:11;;;84:18;71:11;;;64:39;52:2;45:10;8:100;;;12:14;116:43:1;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;-1:-1:-1;;116:43:1;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;:::o",
+  "source": "// SPDX-License-Identifier: SEE LICENSE IN LICENSE\r\npragma solidity ^0.5.0;\r\n\r\ncontract test_crypto_exchange {\r\n    string public name = \"test_crypto_exchange\";\r\n}",
+  "sourcePath": "F:\\block chain\\src\\contracts\\test_crypto_exchange.sol",
+  "ast": {
+    "absolutePath": "project:/src/contracts/test_crypto_exchange.sol",
+    "exportedSymbols": {
+      "test_crypto_exchange": [
+        206
+      ]
+    },
+    "id": 207,
+    "nodeType": "SourceUnit",
+    "nodes": [
+      {
+        "id": 202,
+        "literals": [
+          "solidity",
+          "^",
+          "0.5",
+          ".0"
+        ],
+        "nodeType": "PragmaDirective",
+        "src": "52:23:1"
+      },
+      {
+        "baseContracts": [],
+        "contractDependencies": [],
+        "contractKind": "contract",
+        "documentation": null,
+        "fullyImplemented": true,
+        "id": 206,
+        "linearizedBaseContracts": [
+          206
+        ],
+        "name": "test_crypto_exchange",
+        "nodeType": "ContractDefinition",
+        "nodes": [
+          {
+            "constant": false,
+            "id": 205,
+            "name": "name",
+            "nodeType": "VariableDeclaration",
+            "scope": 206,
+            "src": "116:43:1",
+            "stateVariable": true,
+            "storageLocation": "default",
+            "typeDescriptions": {
+              "typeIdentifier": "t_string_storage",
+              "typeString": "string"
+            },
+            "typeName": {
+              "id": 203,
+              "name": "string",
+              "nodeType": "ElementaryTypeName",
+              "src": "116:6:1",
+              "typeDescriptions": {
+                "typeIdentifier": "t_string_storage_ptr",
+                "typeString": "string"
+              }
+            },
+            "value": {
+              "argumentTypes": null,
+              "hexValue": "746573745f63727970746f5f65786368616e6765",
+              "id": 204,
+              "isConstant": false,
+              "isLValue": false,
+              "isPure": true,
+              "kind": "string",
+              "lValueRequested": false,
+              "nodeType": "Literal",
+              "src": "137:22:1",
+              "subdenomination": null,
+              "typeDescriptions": {
+                "typeIdentifier": "t_stringliteral_e6443f1a70a0e9af8a83148a94f2984859acd478222107cbac1672575a52205d",
+                "typeString": "literal_string \"test_crypto_exchange\""
+              },
+              "value": "test_crypto_exchange"
+            },
+            "visibility": "public"
+          }
+        ],
+        "scope": 207,
+        "src": "79:84:1"
+      }
+    ],
+    "src": "52:111:1"
+  },
+  "legacyAST": {
+    "attributes": {
+      "absolutePath": "project:/src/contracts/test_crypto_exchange.sol",
+      "exportedSymbols": {
+        "test_crypto_exchange": [
+          206
+        ]
+      }
+    },
+    "children": [
+      {
+        "attributes": {
+          "literals": [
+            "solidity",
+            "^",
+            "0.5",
+            ".0"
+          ]
+        },
+        "id": 202,
+        "name": "PragmaDirective",
+        "src": "52:23:1"
+      },
+      {
+        "attributes": {
+          "baseContracts": [
+            null
+          ],
+          "contractDependencies": [
+            null
+          ],
+          "contractKind": "contract",
+          "documentation": null,
+          "fullyImplemented": true,
+          "linearizedBaseContracts": [
+            206
+          ],
+          "name": "test_crypto_exchange",
+          "scope": 207
+        },
+        "children": [
+          {
+            "attributes": {
+              "constant": false,
+              "name": "name",
+              "scope": 206,
+              "stateVariable": true,
+              "storageLocation": "default",
+              "type": "string",
+              "visibility": "public"
+            },
+            "children": [
+              {
+                "attributes": {
+                  "name": "string",
+                  "type": "string"
+                },
+                "id": 203,
+                "name": "ElementaryTypeName",
+                "src": "116:6:1"
+              },
+              {
+                "attributes": {
+                  "argumentTypes": null,
+                  "hexvalue": "746573745f63727970746f5f65786368616e6765",
+                  "isConstant": false,
+                  "isLValue": false,
+                  "isPure": true,
+                  "lValueRequested": false,
+                  "subdenomination": null,
+                  "token": "string",
+                  "type": "literal_string \"test_crypto_exchange\"",
+                  "value": "test_crypto_exchange"
+                },
+                "id": 204,
+                "name": "Literal",
+                "src": "137:22:1"
+              }
+            ],
+            "id": 205,
+            "name": "VariableDeclaration",
+            "src": "116:43:1"
+          }
+        ],
+        "id": 206,
+        "name": "ContractDefinition",
+        "src": "79:84:1"
+      }
+    ],
+    "id": 207,
+    "name": "SourceUnit",
+    "src": "52:111:1"
+  },
+  "compiler": {
+    "name": "solc",
+    "version": "0.5.16+commit.9c3226ce.Emscripten.clang"
+  },
+  "networks": {
+    "5777": {
+      "events": {},
+      "links": {},
+      "address": "0xb484d1d2894919a3739943F7058ca3CBd55bfe46",
+      "transactionHash": "0x4b152bf67caa2ec2d37276bf8babfd7c7bc01eccad2b3bc1693d56f9fbede336"
+    }
+  },
+  "schemaVersion": "3.4.13",
+  "updatedAt": "2023-03-23T00:25:57.157Z",
+  "networkType": "ethereum",
+  "devdoc": {
+    "methods": {}
+  },
+  "userdoc": {
+    "methods": {}
+  }
+}
